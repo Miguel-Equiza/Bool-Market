@@ -1,4 +1,4 @@
-# Bool Market
+# Stock pattern recognition
 
 ![First photo](images/first_photo.png)
 
