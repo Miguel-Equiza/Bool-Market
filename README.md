@@ -13,7 +13,9 @@
 
 Candlestick charts are a visual representation that showcases the highest, lowest, opening, and closing prices within a specific time frame. These charts reveal recurring candlestick patterns as a result of predictable human actions and reactions. These patterns encode valuable information within the candlesticks, that traders employ to make informed decisions about when to enter or exit the market.
 
-To simplify the process of pattern recognition, we propose a dual-model system that automatically identifies chart patterns and candlestick types with a library called TA-lib. The pattern recognition model employs 2 models using Conv1D and LSTM technology with two outputs to classify the specific pattern and another one to pinpoint the dates on which these patterns occurred. The pattern recognition gives a 79.8% accuracy, and the dates model has 13.4 mae on the test set. We called the model proposed the popping model, which enables us to get up to 5 chart patterns in one time series. More on this on the Final approach part
+To simplify the process of pattern recognition, we propose a dual-model system that automatically identifies chart patterns and candlestick types with a library called TA-lib. The pattern recognition model employs 2 models using Conv1D and LSTM technology with two outputs to classify the specific pattern and another one to pinpoint the dates on which these patterns occurred. The pattern recognition gives a 79.8% accuracy, and the dates model has 13.4 mae on the test set. This metrics come from testing it with the data that we have, but it is to be noted that we are not financial experts by any means, and the model is as good as the data it was trained on...
+
+We called the model proposed the popping model, which enables us to get up to 5 chart patterns in one time series. More on this on the [Final approach](#our-final-approach) part
 
 ### Introduction
 
